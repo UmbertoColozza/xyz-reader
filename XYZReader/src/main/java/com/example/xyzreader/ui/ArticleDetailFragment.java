@@ -146,8 +146,6 @@ public class ArticleDetailFragment extends Fragment implements
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
-        Log.d("TAG", "click");
         if(item.getItemId()==android.R.id.home){
 
             NavUtils.navigateUpFromSameTask(getActivity());
